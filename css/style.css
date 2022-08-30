@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap");
+
+/* body */
+body {
+  background-color: black;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Prata", serif;
+  color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+h1:hover {
+  color: chartreuse;
+  transition: 3s;
+}
+
+/* menu de navegacion */
+
+.menunav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 100vh;
+  justify-content: space-evenly;
+  color: darkslategrey;
+}
+
+/*imagen principal */
+
+.img1 {
+    width:500px;
+    height:500px;
+}
+
+div {
+  text-align: center;
+  margin: 30px;
+  padding: 30px;
+}
+
+div:hover {
+  filter: sepia(60%);
+  transition: 4s;
+}
+
+/* secciones */
+
+h2 {
+  font-size: 30px;
+  font-family: "Prata", serif;
+  color: darkslategrey;
+  margin: 20px;
+}
+
+h2:hover {
+  color: coral;
+  transition: 3s;
+  transform: skew(15deg);
+}
+
+section {
+  font-family: "Crimson Text", serif;
+  color: grey;
+  margin: 20px;
+  padding: 20px;
+}
+
+.flexindex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexindex img {
+  padding: 5px;
+}
+
+/* footer */
+
+footer {
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px;
+  }
+
+/* Medias query= Mobile first */
+/* Dispositivos medianos */
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 50px;
+    font-family: "Prata", serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+  }
+}
+
+/* Dispositivos grandes */
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 100px;
+    font-family: "Prata", serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+  }
+}
